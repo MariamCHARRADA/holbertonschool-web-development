@@ -1,0 +1,367 @@
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@700&display=swap");
+:root {
+  --text-color: #ffffff;
+  --main-font: "Source Sans Pro", sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+body {
+  max-width: 100%;
+}
+.smiling_back {
+  background-image: url("./img/background.png");
+  background-size: cover;
+  background-position: center;
+  height: 1093px;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 25px;
+}
+
+header nav ul {
+  display: flex;
+  padding-right: 40px;
+}
+header nav ul li {
+  font-size: 12px;
+  list-style: none;
+  padding: 15px;
+  font-family: "Source Sans Pro", sans-serif;
+  font-weight: 700;
+  color: var(--text-color);
+  cursor: pointer;
+}
+.get_schooled {
+  font-family: var(--main-font);
+  color: var(--text-color);
+  font-size: 7.5rem;
+  text-align: center;
+  margin: 120px 0px 0px;
+}
+main section div {
+  text-align: center;
+}
+.quote {
+  color: var(--text-color);
+  font-size: inherit;
+  font-weight: 700;
+  line-height: 20.11px;
+  word-spacing: 40px;
+}
+.register_btn {
+  width: 162px;
+  height: 44px;
+  font-family: var(--main-font);
+  font-size: 14px;
+  padding: 5px;
+  border-radius: 20px;
+  border: transparent;
+  color: var(--text-color);
+  background-color: #c271ff;
+  margin-top: 40px;
+  text-align: center;
+  line-height: 17.6px;
+  font-weight: 600;
+  margin-bottom: 50px;
+  cursor: pointer;
+  box-shadow: 8px 8px 20px rgba(0, 0, 0, 0.692);
+}
+
+.learn {
+  font-weight: 700;
+  width: 261px;
+  height: 40px;
+  text-align: center;
+  margin: auto;
+  margin-top: 100px;
+}
+
+h2 .first-word {
+  font-size: 1.5em;
+  font-weight: bold;
+  color: #c271ff;
+  font-family: var(--main-font);
+}
+
+h2 .rest-of-line {
+  font-family: sans-serif;
+  font-weight: 100;
+  color: var(--text-color);
+  letter-spacing: 1px;
+  text-shadow: 0 0 2px black;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  margin-top: 50px;
+  padding: 20px;
+}
+
+.container div {
+  padding: 20px;
+  margin: 10px;
+}
+.container div h3 {
+  font-family: var(--main-font);
+  font-weight: 900;
+  font-size: 18px;
+  line-height: 27px;
+  text-align: center;
+  color: var(--text-color);
+  width: 150px;
+  height: 27px;
+}
+.container div p {
+  font-family: sans-serif;
+  color: var(--text-color);
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  font-weight: 100;
+  font-style: italic;
+  width: 150px;
+  height: 48px;
+  letter-spacing: 1px;
+}
+
+.part_1_test {
+  height: 392px;
+  background-color: #c271ff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.quote_section {
+  width: 943px;
+  height: 160px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+
+.phrase_container {
+  color: var(--text-color);
+  font-size: 16px;
+  line-height: 33.6px;
+  font-family: sans-serif;
+  font-weight: lighter;
+  margin-left: 25px;
+}
+
+#person_name {
+  font-weight: 700;
+  line-height: 33.6px;
+  font-family: var(--main-font);
+  font-size: 22px;
+}
+#weather_presenter {
+  font-style: italic;
+}
+
+.part_2_tuto h1 {
+  text-align: center;
+  width: 294px;
+  height: 40px;
+  margin: 30px auto;
+  font-weight: 400;
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.part_2_tuto h1 span {
+  color: #c271ff;
+  font-weight: bold;
+}
+
+.video_compon {
+  display: flex;
+  justify-content: space-evenly;
+  height: 450px;
+  margin-top: 30px;
+}
+
+.tuto {
+  width: 255px;
+  height: 335px;
+  position: relative;
+}
+.tuto::after {
+  content: url("./img/play.svg");
+  position: absolute;
+  top: calc(95px / 2);
+  left: calc(210px / 2);
+  cursor: pointer;
+}
+
+.mini_avatar {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 5px 10px;
+}
+.mini_avatar h3 {
+  color: #c271ff;
+  font-family: sans-serif;
+}
+
+.tuto h2 {
+  margin: 10px auto;
+  font-family: sans-serif;
+  padding: 5px 10px;
+}
+.tuto p {
+  color: #07162996;
+  padding: 5px 10px;
+}
+
+.rating {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px 10px;
+}
+
+.rating img {
+  width: 107px;
+  height: 15px;
+}
+.rating p {
+  color: #c271ff;
+  font-family: var(--main-font);
+}
+
+.free_membership {
+  height: 400px;
+  background-color: #071629;
+  position: relative;
+}
+
+.free_membership h2,
+p {
+  color: var(--text-color);
+}
+
+.grid_container {
+  display: grid;
+  margin-top: 70px;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+.free_membership h1 {
+  margin: 40px auto 0;
+  text-align: center;
+  color: var(--text-color);
+  position: relative;
+  padding: 5px;
+  top: 30px;
+  font-family: sans-serif;
+}
+
+.free_membership h1 span {
+  color: #c271ff;
+  font-size: 28px;
+}
+
+.register_for_free {
+  color: white;
+  background-color: #c271ff;
+  border-radius: 20px;
+  text-align: center;
+  padding: 10px;
+  border: transparent;
+  font-family: var(--main-font);
+  font-size: 14px;
+  position: absolute;
+  top: 85%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.grid_container div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  width: 258px;
+  height: 153px;
+}
+.grid_container div img {
+  width: 43.67px;
+  height: 35.35px;
+}
+.grid_container div h2 {
+  padding: 10px;
+}
+.grid_container div p {
+  text-align: center;
+  padding: 10px;
+}
+.text_FAQ {
+  color: #07162996;
+}
+.faq_section h1 {
+  font-size: 60px;
+  font-family: sans-serif;
+  font-weight: lighter;
+  color: #071629;
+  text-align: center;
+  padding: 10px;
+  margin: 30px auto 10px auto;
+}
+
+.grid_comp_header {
+  font-family: var(--main-font);
+  font-size: 16px;
+  padding: 30px 0 30px 0;
+}
+
+.faq_container {
+  display: grid;
+  grid-template-columns: 350px 350px;
+  grid-template-rows: 600px;
+  justify-content: space-evenly;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 140px;
+}
+
+.footer_container {
+  height: 249px;
+  background-color: #071629;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-end;
+  justify-content: space-around;
+  margin-top: 40px;
+}
+
+.footer_container div {
+  text-align: center;
+  width: 50%;
+}
+
+.footer_container div a {
+  padding: 5px;
+}
+
+.copyright {
+  font-size: 12px;
+  font-family: sans-serif;
+  font-weight: 100;
+  color: rgba(255, 255, 255, 0.432);
+  padding-bottom: 25px;
+}
+.fix {
+  margin: auto;
+}
